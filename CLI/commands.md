@@ -48,33 +48,33 @@
    
 **Public IP Addresses**
 * Creating
-      * az network public-ip create --resourse-group <r-grp> --name <name>
+   * az network public-ip create --resourse-group <r-grp> --name <name>
 * Create with DNS name
-      * --dns-name <unique-dns-name>
+   * --dns-name <unique-dns-name>
 * Make static
-      * --allocation-method Static
+   * --allocation-method Static
 * Deleting
-      * az netwrok public-ip dlete --resource-group <r-grp> --name <name>
+   * az netwrok public-ip dlete --resource-group <r-grp> --name <name>
    
 **Network Interface**
 * Like ethernet port or wireless adapter for VMs
 * Allow VM to communicate over networks (including internet)
 * Creating
-      * Required parameters - Resource group, VNet and subnet
-      * az network nic create --resource-group <r-grp> --name <name> --vnet-name <vnet> --subnet <subnet>
+   * Required parameters - Resource group, VNet and subnet
+   * az network nic create --resource-group <r-grp> --name <name> --vnet-name <vnet> --subnet <subnet>
 * Creating with NSG
-      * --network-security-group <NSG>
+   * --network-security-group <NSG>
 * Creating with public IP
-      * --public-ip-address <name>
+   * --public-ip-address <name>
 * Deleting
-      * az network nic delete --resource-group <r-grp> --name <name>
+   * az network nic delete --resource-group <r-grp> --name <name>
    
 **VMs**
 * Creating   
-      * az vm create --resource-group <r-grp> --name <name> --image <OS image>
-      * az vm image list -o table
+   * az vm create --resource-group <r-grp> --name <name> --image <OS image>
+   * az vm image list -o table
 * Creating with network interface
-      * All nsg rules applied to network interface will be applied to the VM
-      * --nics <network-interface>
+   * All nsg rules applied to network interface will be applied to the VM
+   * --nics <network-interface>
 * Deleting
-      * az vm delete --resource-group <r-grp> --name <name>
+   * az vm delete --resource-group <r-grp> --name <name>
