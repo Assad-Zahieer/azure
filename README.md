@@ -11,7 +11,7 @@
     ![Diagram](https://github.com/Assad-Zahieer/BobsProject/blob/master/Azure-compute-node.jpg)
 
 ## Azure Services
-* 8 main categories
+8 main categories
    1. Compute services
    2. Cloud storage
    3. Networking
