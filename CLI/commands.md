@@ -30,16 +30,16 @@
 
 **Subnets**
 * Creating
-      * az network vnet subnet create --resource-group <r-grp> --name <name> --address-prefixes <CIDR>
+   * az network vnet subnet create --resource-group <r-grp> --name <name> --address-prefixes <CIDR>
 * Deleting
-      * az network vnet subnet delete --resource-group <r-grp> --vnet-name <vnet> --name <name>
+   * az network vnet subnet delete --resource-group <r-grp> --vnet-name <vnet> --name <name>
 
 **NSGs**
 * Firewalls which Can be applied to network interfaces or subnets
 * Creating
-      * az network nsg create --resource-group <r-grp> --name <name>
+   * az network nsg create --resource-group <r-grp> --name <name>
 * Deleting
-      * az network nsg delete --resource-group <r-grp> --name <name>
+   * az network nsg delete --resource-group <r-grp> --name <name>
 * Rules
    * Allow traffic (port, priority), if no rule - traffic denied by default
    * default port = 80
