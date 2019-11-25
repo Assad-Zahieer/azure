@@ -12,11 +12,11 @@
 
 ## Azure Services
 * 8 main categories
-      1. Compute services
-      2. Cloud storage
-      3. Networking
-      4. Databases
-      5. AI & Big Data
-      6. Internet of Things
-      7. Web
-      8. Security
+   1. Compute services
+   2. Cloud storage
+   3. Networking
+   4. Databases
+   5. AI & Big Data
+   6. Internet of Things
+   7. Web
+   8. Security
